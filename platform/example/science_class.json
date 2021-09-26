@@ -1,0 +1,3421 @@
+[{
+    "name": "科学",
+    "path": "科学",
+    "children": [
+        {
+            "name": "物质科学",
+            "mcHereShow": false,
+            "path": "科学/物质科学",
+            "children": [
+                {
+                    "name": "物理知识",
+                    "mcHereShow": false,
+                    "path": "科学/物质科学/物理知识",
+                    "children": [
+                        {
+                            "name": "物理应用",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理应用"
+                        },
+                        {
+                            "name": "物理方法",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理方法"
+                        },
+                        {
+                            "name": "物理仪器",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理仪器"
+                        },
+                        {
+                            "name": "物理实验",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理实验",
+                            "children": [
+                                {
+                                    "name": "热学实验",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理实验/热学实验"
+                                },
+                                {
+                                    "name": "声学实验",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理实验/声学实验"
+                                },
+                                {
+                                    "name": "光学实验",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理实验/光学实验"
+                                },
+                                {
+                                    "name": "力学实验",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理实验/力学实验"
+                                },
+                                {
+                                    "name": "电磁学实验",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理实验/电磁学实验"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "物理概念",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理概念",
+                            "children": [
+                                {
+                                    "name": "相对论",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/相对论",
+                                    "children": [
+                                        {
+                                            "name": "经典时空观",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/相对论/经典时空观"
+                                        },
+                                        {
+                                            "name": "狭义相对论",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/相对论/狭义相对论"
+                                        },
+                                        {
+                                            "name": "广义相对论",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/相对论/广义相对论"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "原子结构",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/原子结构",
+                                    "children": [
+                                        {
+                                            "name": "光谱",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/原子结构/光谱"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "气体",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/气体"
+                                },
+                                {
+                                    "name": "物体",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/物体"
+                                },
+                                {
+                                    "name": "波",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/波"
+                                },
+                                {
+                                    "name": "原子核的组成",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/原子核的组成"
+                                },
+                                {
+                                    "name": "热学概念",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/热学概念",
+                                    "children": [
+                                        {
+                                            "name": "能量",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/热学概念/能量",
+                                            "children": [
+                                                {
+                                                    "name": "结合能",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/结合能"
+                                                },
+                                                {
+                                                    "name": "电",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/电"
+                                                },
+                                                {
+                                                    "name": "动能",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/动能"
+                                                },
+                                                {
+                                                    "name": "机械能",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/机械能"
+                                                },
+                                                {
+                                                    "name": "声",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/声"
+                                                },
+                                                {
+                                                    "name": "热",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/热"
+                                                },
+                                                {
+                                                    "name": "光",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/光"
+                                                },
+                                                {
+                                                    "name": "内能",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/内能"
+                                                },
+                                                {
+                                                    "name": "势能",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/势能"
+                                                },
+                                                {
+                                                    "name": "磁",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/热学概念/能量/磁"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "热机",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/热学概念/热机"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "物质",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/物质",
+                                    "children": [
+                                        {
+                                            "name": "材料",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/物质/材料"
+                                        },
+                                        {
+                                            "name": "水",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/物质/水"
+                                        },
+                                        {
+                                            "name": "金属",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/物质/金属"
+                                        },
+                                        {
+                                            "name": "空气",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/物质/空气"
+                                        },
+                                        {
+                                            "name": "有机物",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/物质/有机物"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "静电场性质",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/静电场性质",
+                                    "children": [
+                                        {
+                                            "name": "电场的力的性质",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/静电场性质/电场的力的性质",
+                                            "children": [
+                                                {
+                                                    "name": "电场",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/静电场性质/电场的力的性质/电场"
+                                                },
+                                                {
+                                                    "name": "电场强度",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/静电场性质/电场的力的性质/电场强度"
+                                                },
+                                                {
+                                                    "name": "电场线",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/静电场性质/电场的力的性质/电场线"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "静电现象与电容器",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/静电场性质/静电现象与电容器",
+                                            "children": [
+                                                {
+                                                    "name": "电容",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/静电场性质/静电现象与电容器/电容"
+                                                },
+                                                {
+                                                    "name": "电容器",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/静电场性质/静电现象与电容器/电容器"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "电场的能的性质",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/静电场性质/电场的能的性质"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "波粒二象性",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/波粒二象性"
+                                },
+                                {
+                                    "name": "力学概念",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/力学概念",
+                                    "children": [
+                                        {
+                                            "name": "动量守恒定律",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/动量守恒定律"
+                                        },
+                                        {
+                                            "name": "力",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/力"
+                                        },
+                                        {
+                                            "name": "运动",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动",
+                                            "children": [
+                                                {
+                                                    "name": "机械运动",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/运动/机械运动",
+                                                    "children": [
+                                                        {
+                                                            "name": "机械波",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动/机械运动/机械波"
+                                                        },
+                                                        {
+                                                            "name": "机械振动",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动/机械运动/机械振动"
+                                                        },
+                                                        {
+                                                            "name": "圆周运动",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动/机械运动/圆周运动"
+                                                        },
+                                                        {
+                                                            "name": "自由落体运动与竖直抛体运动",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动/机械运动/自由落体运动与竖直抛体运动"
+                                                        },
+                                                        {
+                                                            "name": "抛体运动",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动/机械运动/抛体运动"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "宇宙航行",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/宇宙航行"
+                                        },
+                                        {
+                                            "name": "碰撞",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/碰撞"
+                                        },
+                                        {
+                                            "name": "动量",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/动量"
+                                        },
+                                        {
+                                            "name": "作用力和反作用力",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/作用力和反作用力"
+                                        },
+                                        {
+                                            "name": "压强",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/压强",
+                                            "children": [
+                                                {
+                                                    "name": "大气压强",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/压强/大气压强"
+                                                },
+                                                {
+                                                    "name": "液体的压强",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/压强/液体的压强"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "运动的性质",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质",
+                                            "children": [
+                                                {
+                                                    "name": "长度和时间的测量",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/长度和时间的测量",
+                                                    "children": [
+                                                        {
+                                                            "name": "时间",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/长度和时间的测量/时间"
+                                                        },
+                                                        {
+                                                            "name": "长度",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/长度和时间的测量/长度"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "运动的快慢",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的快慢",
+                                                    "children": [
+                                                        {
+                                                            "name": "速度",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的快慢/速度"
+                                                        },
+                                                        {
+                                                            "name": "匀速直线运动",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的快慢/匀速直线运动"
+                                                        },
+                                                        {
+                                                            "name": "加速度",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的快慢/加速度"
+                                                        },
+                                                        {
+                                                            "name": "变速运动",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的快慢/变速运动",
+                                                            "children": [
+                                                                {
+                                                                    "name": "变速直线运动",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的快慢/变速运动/变速直线运动"
+                                                                },
+                                                                {
+                                                                    "name": "曲线运动",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的快慢/变速运动/曲线运动"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "速率",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的快慢/速率"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "运动的描述",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的描述",
+                                                    "children": [
+                                                        {
+                                                            "name": "坐标系",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/运动的性质/运动的描述/坐标系"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "功",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/功"
+                                        },
+                                        {
+                                            "name": "动量定理",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/动量定理"
+                                        },
+                                        {
+                                            "name": "功率",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/功率"
+                                        },
+                                        {
+                                            "name": "简单机械",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/力学概念/简单机械",
+                                            "children": [
+                                                {
+                                                    "name": "机械效率",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/简单机械/机械效率"
+                                                },
+                                                {
+                                                    "name": "滑轮",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/简单机械/滑轮"
+                                                },
+                                                {
+                                                    "name": "杠杆",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/力学概念/简单机械/杠杆"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "物体特征",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/物体特征"
+                                },
+                                {
+                                    "name": "电学概念",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/电学概念",
+                                    "children": [
+                                        {
+                                            "name": "触电",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/触电"
+                                        },
+                                        {
+                                            "name": "电能",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电能"
+                                        },
+                                        {
+                                            "name": "家庭电路",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/家庭电路"
+                                        },
+                                        {
+                                            "name": "电与热",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电与热"
+                                        },
+                                        {
+                                            "name": "电流和电路",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路",
+                                            "children": [
+                                                {
+                                                    "name": "电荷与材料",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路/电荷与材料",
+                                                    "children": [
+                                                        {
+                                                            "name": "原子",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路/电荷与材料/原子"
+                                                        },
+                                                        {
+                                                            "name": "电荷",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路/电荷与材料/电荷"
+                                                        },
+                                                        {
+                                                            "name": "库仑定律",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路/电荷与材料/库仑定律"
+                                                        },
+                                                        {
+                                                            "name": "起电",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路/电荷与材料/起电"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "串联与并联",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路/串联与并联"
+                                                },
+                                                {
+                                                    "name": "简单的逻辑电路",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路/简单的逻辑电路"
+                                                },
+                                                {
+                                                    "name": "电流的强弱",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/电学概念/电流和电路/电流的强弱"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "电功率",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电功率"
+                                        },
+                                        {
+                                            "name": "电压和电阻",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/电压和电阻",
+                                            "children": [
+                                                {
+                                                    "name": "电阻",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/电学概念/电压和电阻/电阻"
+                                                },
+                                                {
+                                                    "name": "电压",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理概念/电学概念/电压和电阻/电压"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "交变电流",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/电学概念/交变电流"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "能源",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/能源",
+                                    "children": [
+                                        {
+                                            "name": "常规能源",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/能源/常规能源"
+                                        },
+                                        {
+                                            "name": "新能源",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/能源/新能源"
+                                        },
+                                        {
+                                            "name": "不可再生能源",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/能源/不可再生能源"
+                                        },
+                                        {
+                                            "name": "可再生能源",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/能源/可再生能源"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "光学概念",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理概念/光学概念",
+                                    "children": [
+                                        {
+                                            "name": "望远镜",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/光学概念/望远镜"
+                                        },
+                                        {
+                                            "name": "显微镜",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理概念/光学概念/显微镜"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "物理单位",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理单位"
+                        },
+                        {
+                            "name": "物理学家",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理学家"
+                        },
+                        {
+                            "name": "物理量",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理量"
+                        },
+                        {
+                            "name": "物理定律",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理定律",
+                            "children": [
+                                {
+                                    "name": "声学定律",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理定律/声学定律"
+                                },
+                                {
+                                    "name": "光学定律",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理定律/光学定律"
+                                },
+                                {
+                                    "name": "电磁学定律",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理定律/电磁学定律",
+                                    "children": [
+                                        {
+                                            "name": "欧姆定律",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理定律/电磁学定律/欧姆定律"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "力学定律",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理定律/力学定律",
+                                    "children": [
+                                        {
+                                            "name": "万有引力定律",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理定律/力学定律/万有引力定律",
+                                            "children": [
+                                                {
+                                                    "name": "开普勒行星运动定律",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/物理知识/物理定律/力学定律/万有引力定律/开普勒行星运动定律"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "热学定律",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理定律/热学定律"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "物理规律",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理规律"
+                        },
+                        {
+                            "name": "物理现象",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理现象",
+                            "children": [
+                                {
+                                    "name": "力学现象",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理现象/力学现象",
+                                    "children": [
+                                        {
+                                            "name": "牛顿运动定律",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/力学现象/牛顿运动定律"
+                                        },
+                                        {
+                                            "name": "运动的合成与分解",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/力学现象/运动的合成与分解"
+                                        },
+                                        {
+                                            "name": "二力合成与二力平衡",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/力学现象/二力合成与二力平衡"
+                                        },
+                                        {
+                                            "name": "机械能及其转化",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/力学现象/机械能及其转化"
+                                        },
+                                        {
+                                            "name": "形变",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/力学现象/形变"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "热学现象",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理现象/热学现象",
+                                    "children": [
+                                        {
+                                            "name": "分子热运动",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/热学现象/分子热运动"
+                                        },
+                                        {
+                                            "name": "天然放射现象",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/热学现象/天然放射现象"
+                                        },
+                                        {
+                                            "name": "物态变化",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/热学现象/物态变化"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "声现象",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理现象/声现象",
+                                    "children": [
+                                        {
+                                            "name": "声音的特性",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/声现象/声音的特性"
+                                        },
+                                        {
+                                            "name": "噪声",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/声现象/噪声"
+                                        },
+                                        {
+                                            "name": "噪声控制",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/声现象/噪声控制"
+                                        },
+                                        {
+                                            "name": "声音的产生与传播",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/声现象/声音的产生与传播"
+                                        },
+                                        {
+                                            "name": "回声",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/声现象/回声"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "电磁学现象",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理现象/电磁学现象",
+                                    "children": [
+                                        {
+                                            "name": "电磁振荡",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/电磁学现象/电磁振荡"
+                                        },
+                                        {
+                                            "name": "安培力与洛伦兹力",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/电磁学现象/安培力与洛伦兹力"
+                                        },
+                                        {
+                                            "name": "电磁波",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/电磁学现象/电磁波"
+                                        },
+                                        {
+                                            "name": "电生磁",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/电磁学现象/电生磁"
+                                        },
+                                        {
+                                            "name": "磁现象和磁场",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/电磁学现象/磁现象和磁场"
+                                        },
+                                        {
+                                            "name": "法拉第电磁感应定律",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/电磁学现象/法拉第电磁感应定律"
+                                        },
+                                        {
+                                            "name": "磁生电",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/电磁学现象/磁生电"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "光现象",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理现象/光现象",
+                                    "children": [
+                                        {
+                                            "name": "平面镜成像",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/平面镜成像"
+                                        },
+                                        {
+                                            "name": "看不见的光",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/看不见的光"
+                                        },
+                                        {
+                                            "name": "光的干涉",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/光的干涉"
+                                        },
+                                        {
+                                            "name": "光的衍射",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/光的衍射"
+                                        },
+                                        {
+                                            "name": "全反射",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/全反射"
+                                        },
+                                        {
+                                            "name": "光的反射",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/光的反射"
+                                        },
+                                        {
+                                            "name": "光速",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/光速"
+                                        },
+                                        {
+                                            "name": "光的折射",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/光的折射"
+                                        },
+                                        {
+                                            "name": "光的传播",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/光的传播"
+                                        },
+                                        {
+                                            "name": "光的色散",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/光的色散"
+                                        },
+                                        {
+                                            "name": "光的偏振",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/光的偏振"
+                                        },
+                                        {
+                                            "name": "激光",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/激光"
+                                        },
+                                        {
+                                            "name": "透镜",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/透镜"
+                                        },
+                                        {
+                                            "name": "凸透镜成像的规律",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/物理知识/物理现象/光现象/凸透镜成像的规律"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "核反应",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/物理知识/物理现象/核反应"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "物理关系",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/物理知识/物理关系"
+                        }
+                    ]
+                },
+                {
+                    "name": "化学知识",
+                    "mcHereShow": false,
+                    "path": "科学/物质科学/化学知识",
+                    "children": [
+                        {
+                            "name": "化学概念",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学概念"
+                        },
+                        {
+                            "name": "化学实验",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学实验",
+                            "children": [
+                                {
+                                    "name": "实验基本操作",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学实验/实验基本操作"
+                                },
+                                {
+                                    "name": "物质的检验",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学实验/物质的检验",
+                                    "children": [
+                                        {
+                                            "name": "离子的检验",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学实验/物质的检验/离子的检验"
+                                        },
+                                        {
+                                            "name": "气体的检验",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学实验/物质的检验/气体的检验"
+                                        },
+                                        {
+                                            "name": "有机物的检验",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学实验/物质的检验/有机物的检验"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "实验仪器名称及用途",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学实验/实验仪器名称及用途"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "化学人物",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学人物"
+                        },
+                        {
+                            "name": "化学与生活",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学与生活",
+                            "children": [
+                                {
+                                    "name": "化学与生产",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学与生活/化学与生产"
+                                },
+                                {
+                                    "name": "人体中的六大基本营养素",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学与生活/人体中的六大基本营养素"
+                                },
+                                {
+                                    "name": "化学与人体健康",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学与生活/化学与人体健康",
+                                    "children": [
+                                        {
+                                            "name": "人体中的微量元素",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与人体健康/人体中的微量元素"
+                                        },
+                                        {
+                                            "name": "人体中的常量元素",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与人体健康/人体中的常量元素"
+                                        },
+                                        {
+                                            "name": "对人体有害的物质",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与人体健康/对人体有害的物质"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "化学与材料",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学与生活/化学与材料",
+                                    "children": [
+                                        {
+                                            "name": "天然有机高分子材料",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与材料/天然有机高分子材料"
+                                        },
+                                        {
+                                            "name": "有机合成材料",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与材料/有机合成材料"
+                                        },
+                                        {
+                                            "name": "新型有机合成材料",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与材料/新型有机合成材料"
+                                        },
+                                        {
+                                            "name": "无机非金属材料",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与材料/无机非金属材料"
+                                        },
+                                        {
+                                            "name": "复合材料",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与材料/复合材料"
+                                        },
+                                        {
+                                            "name": "金属材料",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学与生活/化学与材料/金属材料"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "化学与环境",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学与生活/化学与环境"
+                                },
+                                {
+                                    "name": "化学与能源",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学与生活/化学与能源"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "化学方法",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学方法"
+                        },
+                        {
+                            "name": "物质结构",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/物质结构",
+                            "children": [
+                                {
+                                    "name": "粒子",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/物质结构/粒子",
+                                    "children": [
+                                        {
+                                            "name": "分子",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/物质结构/粒子/分子"
+                                        },
+                                        {
+                                            "name": "离子",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/物质结构/粒子/离子"
+                                        },
+                                        {
+                                            "name": "原子",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/物质结构/粒子/原子"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "元素",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/物质结构/元素",
+                                    "children": [
+                                        {
+                                            "name": "大量元素",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/物质结构/元素/大量元素"
+                                        },
+                                        {
+                                            "name": "微量元素",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/物质结构/元素/微量元素"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "化学原理",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学原理"
+                        },
+                        {
+                            "name": "化学反应",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学反应",
+                            "children": [
+                                {
+                                    "name": "无机物的化学反应",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学反应/无机物的化学反应",
+                                    "children": [
+                                        {
+                                            "name": "分解反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/无机物的化学反应/分解反应"
+                                        },
+                                        {
+                                            "name": "置换反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/无机物的化学反应/置换反应"
+                                        },
+                                        {
+                                            "name": "复分解反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/无机物的化学反应/复分解反应"
+                                        },
+                                        {
+                                            "name": "化合反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/无机物的化学反应/化合反应"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "有机物的化学反应",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学反应/有机物的化学反应",
+                                    "children": [
+                                        {
+                                            "name": "取代反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/有机物的化学反应/取代反应"
+                                        },
+                                        {
+                                            "name": "加成反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/有机物的化学反应/加成反应"
+                                        },
+                                        {
+                                            "name": "缩聚反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/有机物的化学反应/缩聚反应"
+                                        },
+                                        {
+                                            "name": "加聚反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/有机物的化学反应/加聚反应"
+                                        },
+                                        {
+                                            "name": "消去反应",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学反应/有机物的化学反应/消去反应"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "化学元素",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学元素",
+                            "children": [
+                                {
+                                    "name": "金属元素",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学元素/金属元素"
+                                },
+                                {
+                                    "name": "稀有气体元素",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学元素/稀有气体元素"
+                                },
+                                {
+                                    "name": "非金属元素",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学元素/非金属元素"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "物质的性质",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/物质的性质",
+                            "children": [
+                                {
+                                    "name": "化学性质",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/物质的性质/化学性质"
+                                },
+                                {
+                                    "name": "物理性质",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/物质的性质/物理性质"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "化学物质",
+                            "mcHereShow": false,
+                            "path": "科学/物质科学/化学知识/化学物质",
+                            "children": [
+                                {
+                                    "name": "混合物",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学物质/混合物"
+                                },
+                                {
+                                    "name": "纯净物",
+                                    "mcHereShow": false,
+                                    "path": "科学/物质科学/化学知识/化学物质/纯净物",
+                                    "children": [
+                                        {
+                                            "name": "化合物",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物",
+                                            "children": [
+                                                {
+                                                    "name": "无机化合物",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/无机化合物",
+                                                    "children": [
+                                                        {
+                                                            "name": "水",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/无机化合物/水"
+                                                        },
+                                                        {
+                                                            "name": "无机盐",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/无机化合物/无机盐"
+                                                        },
+                                                        {
+                                                            "name": "酸",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/无机化合物/酸"
+                                                        },
+                                                        {
+                                                            "name": "碱",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/无机化合物/碱"
+                                                        },
+                                                        {
+                                                            "name": "盐",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/无机化合物/盐"
+                                                        },
+                                                        {
+                                                            "name": "氧化物",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/无机化合物/氧化物"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "有机化合物",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物",
+                                                    "children": [
+                                                        {
+                                                            "name": "酮",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/酮"
+                                                        },
+                                                        {
+                                                            "name": "醛",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/醛"
+                                                        },
+                                                        {
+                                                            "name": "烃",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/烃"
+                                                        },
+                                                        {
+                                                            "name": "酚",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/酚"
+                                                        },
+                                                        {
+                                                            "name": "醚",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/醚"
+                                                        },
+                                                        {
+                                                            "name": "有机高分子化合物",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/有机高分子化合物",
+                                                            "children": [
+                                                                {
+                                                                    "name": "人工合成有机高分子材料",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/有机高分子化合物/人工合成有机高分子材料"
+                                                                },
+                                                                {
+                                                                    "name": "天然有机高分子化合物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/有机高分子化合物/天然有机高分子化合物"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "酯",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/酯"
+                                                        },
+                                                        {
+                                                            "name": "羧酸",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/羧酸"
+                                                        },
+                                                        {
+                                                            "name": "醇",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/化合物/有机化合物/醇"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "单质",
+                                            "mcHereShow": false,
+                                            "path": "科学/物质科学/化学知识/化学物质/纯净物/单质"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "生命科学",
+            "mcHereShow": false,
+            "path": "科学/生命科学",
+            "children": [
+                {
+                    "name": "生物现象",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物现象"
+                },
+                {
+                    "name": "生物方法",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物方法",
+                    "children": [
+                        {
+                            "name": "实验方法",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物方法/实验方法"
+                        },
+                        {
+                            "name": "研究方法",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物方法/研究方法"
+                        }
+                    ]
+                },
+                {
+                    "name": "生物人物",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物人物"
+                },
+                {
+                    "name": "生物定律",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物定律"
+                },
+                {
+                    "name": "生物概念",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物概念",
+                    "children": [
+                        {
+                            "name": "能源物质",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/能源物质",
+                            "children": [
+                                {
+                                    "name": "储能物质",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/能源物质/储能物质"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "无机化合物",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/无机化合物",
+                            "children": [
+                                {
+                                    "name": "水",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/无机化合物/水"
+                                },
+                                {
+                                    "name": "无机盐",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/无机化合物/无机盐"
+                                },
+                                {
+                                    "name": "酸",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/无机化合物/酸"
+                                },
+                                {
+                                    "name": "碱",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/无机化合物/碱"
+                                },
+                                {
+                                    "name": "盐",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/无机化合物/盐"
+                                },
+                                {
+                                    "name": "氧化物",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/无机化合物/氧化物"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "生物大分子",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生物大分子",
+                            "children": [
+                                {
+                                    "name": "脂肪",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物大分子/脂肪"
+                                },
+                                {
+                                    "name": "多糖",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物大分子/多糖"
+                                },
+                                {
+                                    "name": "核酸",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物大分子/核酸"
+                                },
+                                {
+                                    "name": "蛋白质",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物大分子/蛋白质"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "细胞结构",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/细胞结构",
+                            "children": [
+                                {
+                                    "name": "细胞器",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/细胞结构/细胞器"
+                                },
+                                {
+                                    "name": "生物膜",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/细胞结构/生物膜"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "密码子",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/密码子",
+                            "children": [
+                                {
+                                    "name": "终止密码子",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/密码子/终止密码子"
+                                },
+                                {
+                                    "name": "起始密码子",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/密码子/起始密码子"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "生物小分子",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生物小分子",
+                            "children": [
+                                {
+                                    "name": "核苷酸",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物小分子/核苷酸",
+                                    "children": [
+                                        {
+                                            "name": "脱氧核糖核苷酸",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物小分子/核苷酸/脱氧核糖核苷酸"
+                                        },
+                                        {
+                                            "name": "核糖核苷酸",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物小分子/核苷酸/核糖核苷酸"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "二糖",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物小分子/二糖"
+                                },
+                                {
+                                    "name": "单糖",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物小分子/单糖"
+                                },
+                                {
+                                    "name": "氨基酸",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物小分子/氨基酸",
+                                    "children": [
+                                        {
+                                            "name": "非必需氨基酸",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物小分子/氨基酸/非必需氨基酸"
+                                        },
+                                        {
+                                            "name": "必需氨基酸",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物小分子/氨基酸/必需氨基酸"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "疾病",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/疾病",
+                            "children": [
+                                {
+                                    "name": "家族性疾病",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/疾病/家族性疾病"
+                                },
+                                {
+                                    "name": "先天性疾病",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/疾病/先天性疾病"
+                                },
+                                {
+                                    "name": "遗传病",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/疾病/遗传病",
+                                    "children": [
+                                        {
+                                            "name": "隐性遗传病",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/疾病/遗传病/隐性遗传病"
+                                        },
+                                        {
+                                            "name": "单基因遗传病",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/疾病/遗传病/单基因遗传病"
+                                        },
+                                        {
+                                            "name": "显性遗传病",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/疾病/遗传病/显性遗传病"
+                                        },
+                                        {
+                                            "name": "染色体异常遗传病",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/疾病/遗传病/染色体异常遗传病"
+                                        },
+                                        {
+                                            "name": "多基因遗传病",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/疾病/遗传病/多基因遗传病"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "传染病",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/疾病/传染病"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "种间关系",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/种间关系"
+                        },
+                        {
+                            "name": "种族特征",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/种族特征"
+                        },
+                        {
+                            "name": "急救",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/急救"
+                        },
+                        {
+                            "name": "遗传",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/遗传",
+                            "children": [
+                                {
+                                    "name": "细胞质遗传",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/遗传/细胞质遗传"
+                                },
+                                {
+                                    "name": "非伴性遗传",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/遗传/非伴性遗传"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "性状",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/性状"
+                        },
+                        {
+                            "name": "营养素",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/营养素"
+                        },
+                        {
+                            "name": "生物",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生物",
+                            "children": [
+                                {
+                                    "name": "细胞生物",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物/细胞生物",
+                                    "children": [
+                                        {
+                                            "name": "单细胞生物",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物/细胞生物/单细胞生物",
+                                            "children": [
+                                                {
+                                                    "name": "真菌",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/单细胞生物/真菌"
+                                                },
+                                                {
+                                                    "name": "原核生物",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/单细胞生物/原核生物"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "多细胞生物",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物/细胞生物/多细胞生物"
+                                        },
+                                        {
+                                            "name": "真核生物",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物",
+                                            "children": [
+                                                {
+                                                    "name": "真菌",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/真菌"
+                                                },
+                                                {
+                                                    "name": "植物",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物",
+                                                    "children": [
+                                                        {
+                                                            "name": "农作物",
+                                                            "mcHereShow": false,
+                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物",
+                                                            "children": [
+                                                                {
+                                                                    "name": "饮料作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/饮料作物"
+                                                                },
+                                                                {
+                                                                    "name": "绿肥作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/绿肥作物"
+                                                                },
+                                                                {
+                                                                    "name": "药材作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/药材作物"
+                                                                },
+                                                                {
+                                                                    "name": "饲料作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/饲料作物"
+                                                                },
+                                                                {
+                                                                    "name": "纤维作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/纤维作物"
+                                                                },
+                                                                {
+                                                                    "name": "嗜好作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/嗜好作物"
+                                                                },
+                                                                {
+                                                                    "name": "晚秋作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/晚秋作物"
+                                                                },
+                                                                {
+                                                                    "name": "糖料作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/糖料作物"
+                                                                },
+                                                                {
+                                                                    "name": "粮食作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/粮食作物",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "谷类作物",
+                                                                            "mcHereShow": false,
+                                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/粮食作物/谷类作物"
+                                                                        },
+                                                                        {
+                                                                            "name": "豆类作物",
+                                                                            "mcHereShow": false,
+                                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/粮食作物/豆类作物"
+                                                                        },
+                                                                        {
+                                                                            "name": "薯类作物",
+                                                                            "mcHereShow": false,
+                                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/粮食作物/薯类作物"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "油料作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/油料作物"
+                                                                },
+                                                                {
+                                                                    "name": "园艺作物",
+                                                                    "mcHereShow": false,
+                                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/园艺作物",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "草",
+                                                                            "mcHereShow": false,
+                                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/园艺作物/草"
+                                                                        },
+                                                                        {
+                                                                            "name": "果品",
+                                                                            "mcHereShow": false,
+                                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/园艺作物/果品"
+                                                                        },
+                                                                        {
+                                                                            "name": "蔬菜",
+                                                                            "mcHereShow": false,
+                                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/园艺作物/蔬菜"
+                                                                        },
+                                                                        {
+                                                                            "name": "花卉",
+                                                                            "mcHereShow": false,
+                                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/园艺作物/花卉"
+                                                                        },
+                                                                        {
+                                                                            "name": "瓜果",
+                                                                            "mcHereShow": false,
+                                                                            "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/植物/农作物/园艺作物/瓜果"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "动物",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生物/细胞生物/真核生物/动物"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "异养生物",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物/异养生物",
+                                    "children": [
+                                        {
+                                            "name": "病毒",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物/异养生物/病毒"
+                                        },
+                                        {
+                                            "name": "动物",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物/异养生物/动物"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "非细胞生物",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物/非细胞生物",
+                                    "children": [
+                                        {
+                                            "name": "病毒",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物/非细胞生物/病毒"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "自养生物",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生物/自养生物",
+                                    "children": [
+                                        {
+                                            "name": "化能自养生物",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物/自养生物/化能自养生物"
+                                        },
+                                        {
+                                            "name": "光能自养生物",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生物/自养生物/光能自养生物"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "生物电",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生物电"
+                        },
+                        {
+                            "name": "生态环境问题",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生态环境问题"
+                        },
+                        {
+                            "name": "基团",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/基团",
+                            "children": [
+                                {
+                                    "name": "碱基",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/基团/碱基"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "药物",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/药物"
+                        },
+                        {
+                            "name": "变异",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/变异",
+                            "children": [
+                                {
+                                    "name": "染色体变异",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/变异/染色体变异"
+                                },
+                                {
+                                    "name": "基因变异",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/变异/基因变异",
+                                    "children": [
+                                        {
+                                            "name": "基因重组",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/变异/基因变异/基因重组"
+                                        },
+                                        {
+                                            "name": "基因突变",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/变异/基因变异/基因突变"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "实验试剂",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/实验试剂"
+                        },
+                        {
+                            "name": "生物进化",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生物进化"
+                        },
+                        {
+                            "name": "动物结构",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/动物结构",
+                            "children": [
+                                {
+                                    "name": "感受器",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/动物结构/感受器"
+                                },
+                                {
+                                    "name": "器官",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/动物结构/器官"
+                                },
+                                {
+                                    "name": "感官",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/动物结构/感官"
+                                },
+                                {
+                                    "name": "体液",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/动物结构/体液"
+                                },
+                                {
+                                    "name": "内分泌腺",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/动物结构/内分泌腺"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "生命系统",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生命系统",
+                            "children": [
+                                {
+                                    "name": "生态系统",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命系统/生态系统",
+                                    "children": [
+                                        {
+                                            "name": "人工生态系统",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命系统/生态系统/人工生态系统"
+                                        },
+                                        {
+                                            "name": "自然生态系统",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命系统/生态系统/自然生态系统",
+                                            "children": [
+                                                {
+                                                    "name": "陆地生态系统",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命系统/生态系统/自然生态系统/陆地生态系统"
+                                                },
+                                                {
+                                                    "name": "水域生态系统",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命系统/生态系统/自然生态系统/水域生态系统"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "个体",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命系统/个体",
+                                    "children": [
+                                        {
+                                            "name": "单倍体",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命系统/个体/单倍体"
+                                        },
+                                        {
+                                            "name": "多倍体",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命系统/个体/多倍体",
+                                            "children": [
+                                                {
+                                                    "name": "四倍体",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命系统/个体/多倍体/四倍体"
+                                                },
+                                                {
+                                                    "name": "三倍体",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命系统/个体/多倍体/三倍体"
+                                                },
+                                                {
+                                                    "name": "异源多倍体",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命系统/个体/多倍体/异源多倍体"
+                                                },
+                                                {
+                                                    "name": "同源多倍体",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命系统/个体/多倍体/同源多倍体"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "二倍体",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命系统/个体/二倍体"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "细胞",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命系统/细胞",
+                                    "children": [
+                                        {
+                                            "name": "真核细胞",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命系统/细胞/真核细胞",
+                                            "children": [
+                                                {
+                                                    "name": "动物细胞",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命系统/细胞/真核细胞/动物细胞"
+                                                },
+                                                {
+                                                    "name": "植物细胞",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命系统/细胞/真核细胞/植物细胞"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "原核细胞",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命系统/细胞/原核细胞"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "群落",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命系统/群落"
+                                },
+                                {
+                                    "name": "组织",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命系统/组织"
+                                },
+                                {
+                                    "name": "器官",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命系统/器官"
+                                },
+                                {
+                                    "name": "系统",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命系统/系统"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "生命活动",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生命活动",
+                            "children": [
+                                {
+                                    "name": "神经活动",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命活动/神经活动"
+                                },
+                                {
+                                    "name": "人体调节",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命活动/人体调节"
+                                },
+                                {
+                                    "name": "繁殖",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命活动/繁殖"
+                                },
+                                {
+                                    "name": "细胞活动",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命活动/细胞活动",
+                                    "children": [
+                                        {
+                                            "name": "细胞呼吸",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命活动/细胞活动/细胞呼吸"
+                                        },
+                                        {
+                                            "name": "光合作用",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命活动/细胞活动/光合作用"
+                                        },
+                                        {
+                                            "name": "跨膜运输",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命活动/细胞活动/跨膜运输",
+                                            "children": [
+                                                {
+                                                    "name": "被动运输",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命活动/细胞活动/跨膜运输/被动运输"
+                                                },
+                                                {
+                                                    "name": "主动运输",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/生命科学/生物概念/生命活动/细胞活动/跨膜运输/主动运输"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "细胞分裂",
+                                            "mcHereShow": false,
+                                            "path": "科学/生命科学/生物概念/生命活动/细胞活动/细胞分裂"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "免疫",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/生命活动/免疫"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "交配",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/交配"
+                        },
+                        {
+                            "name": "植物结构",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/植物结构",
+                            "children": [
+                                {
+                                    "name": "叶",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/植物结构/叶"
+                                },
+                                {
+                                    "name": "根",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/植物结构/根"
+                                },
+                                {
+                                    "name": "花",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/植物结构/花"
+                                },
+                                {
+                                    "name": "茎",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/植物结构/茎"
+                                },
+                                {
+                                    "name": "果实",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/植物结构/果实"
+                                },
+                                {
+                                    "name": "种子",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/植物结构/种子"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "遗传物质",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/遗传物质",
+                            "children": [
+                                {
+                                    "name": "基因",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/遗传物质/基因"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "生物多样性",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/生物多样性"
+                        },
+                        {
+                            "name": "群落演替",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/群落演替"
+                        },
+                        {
+                            "name": "物质循环",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/物质循环"
+                        },
+                        {
+                            "name": "元素",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物概念/元素",
+                            "children": [
+                                {
+                                    "name": "大量元素",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/元素/大量元素"
+                                },
+                                {
+                                    "name": "微量元素",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物概念/元素/微量元素"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "生物学说",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物学说"
+                },
+                {
+                    "name": "生物实验",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物实验"
+                },
+                {
+                    "name": "生物模型",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物模型",
+                    "children": [
+                        {
+                            "name": "数字模型",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物模型/数字模型"
+                        },
+                        {
+                            "name": "物理模型",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物模型/物理模型"
+                        },
+                        {
+                            "name": "概念模型",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物模型/概念模型"
+                        }
+                    ]
+                },
+                {
+                    "name": "实验仪器",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/实验仪器"
+                },
+                {
+                    "name": "生物技术",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物技术",
+                    "children": [
+                        {
+                            "name": "胚胎工程",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物技术/胚胎工程"
+                        },
+                        {
+                            "name": "细胞工程",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物技术/细胞工程",
+                            "children": [
+                                {
+                                    "name": "植物细胞工程",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物技术/细胞工程/植物细胞工程"
+                                },
+                                {
+                                    "name": "动物细胞工程",
+                                    "mcHereShow": false,
+                                    "path": "科学/生命科学/生物技术/细胞工程/动物细胞工程"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "育种",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物技术/育种"
+                        },
+                        {
+                            "name": "基因工程",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物技术/基因工程"
+                        },
+                        {
+                            "name": "生态工程",
+                            "mcHereShow": false,
+                            "path": "科学/生命科学/生物技术/生态工程"
+                        }
+                    ]
+                },
+                {
+                    "name": "生物关系",
+                    "mcHereShow": false,
+                    "path": "科学/生命科学/生物关系"
+                }
+            ]
+        },
+        {
+            "name": "地球与宇宙科学",
+            "mcHereShow": false,
+            "path": "科学/地球与宇宙科学",
+            "children": [
+                {
+                    "name": "自然世界",
+                    "mcHereShow": false,
+                    "path": "科学/地球与宇宙科学/自然世界",
+                    "children": [
+                        {
+                            "name": "洋流",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/洋流"
+                        },
+                        {
+                            "name": "内海",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/内海"
+                        },
+                        {
+                            "name": "沼泽",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/沼泽"
+                        },
+                        {
+                            "name": "岛屿",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/岛屿"
+                        },
+                        {
+                            "name": "半岛",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/半岛"
+                        },
+                        {
+                            "name": "森林",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/森林"
+                        },
+                        {
+                            "name": "河流",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/河流",
+                            "children": [
+                                {
+                                    "name": "外流河",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/河流/外流河"
+                                },
+                                {
+                                    "name": "内流河",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/河流/内流河"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "湿地",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/湿地"
+                        },
+                        {
+                            "name": "草原",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/草原"
+                        },
+                        {
+                            "name": "大陆",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/大陆"
+                        },
+                        {
+                            "name": "裂谷",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/裂谷"
+                        },
+                        {
+                            "name": "群岛",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/群岛"
+                        },
+                        {
+                            "name": "海洋",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/海洋"
+                        },
+                        {
+                            "name": "海滩",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/海滩"
+                        },
+                        {
+                            "name": "沙漠",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/沙漠"
+                        },
+                        {
+                            "name": "地貌",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/地貌"
+                        },
+                        {
+                            "name": "地形",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/地形",
+                            "children": [
+                                {
+                                    "name": "山地",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/地形/山地"
+                                },
+                                {
+                                    "name": "丘陵",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/地形/丘陵"
+                                },
+                                {
+                                    "name": "高原",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/地形/高原"
+                                },
+                                {
+                                    "name": "山脉",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/地形/山脉"
+                                },
+                                {
+                                    "name": "盆地",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/地形/盆地"
+                                },
+                                {
+                                    "name": "山谷",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/地形/山谷"
+                                },
+                                {
+                                    "name": "山峰",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/地形/山峰"
+                                },
+                                {
+                                    "name": "平原",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/地形/平原"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "湖泊",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/湖泊",
+                            "children": [
+                                {
+                                    "name": "咸水湖",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/湖泊/咸水湖"
+                                },
+                                {
+                                    "name": "盐湖",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/湖泊/盐湖"
+                                },
+                                {
+                                    "name": "淡水湖",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/自然世界/湖泊/淡水湖"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "海岸",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/海岸"
+                        },
+                        {
+                            "name": "雪山",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/雪山"
+                        },
+                        {
+                            "name": "火山",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/火山"
+                        },
+                        {
+                            "name": "海岭",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/海岭"
+                        },
+                        {
+                            "name": "冰川",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/冰川"
+                        },
+                        {
+                            "name": "列岛",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/列岛"
+                        },
+                        {
+                            "name": "海沟",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/海沟"
+                        },
+                        {
+                            "name": "运河",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/运河"
+                        },
+                        {
+                            "name": "三角洲",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/三角洲"
+                        },
+                        {
+                            "name": "海湾",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/海湾"
+                        },
+                        {
+                            "name": "峡谷",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/峡谷"
+                        },
+                        {
+                            "name": "水系",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/水系"
+                        },
+                        {
+                            "name": "山系",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/山系"
+                        },
+                        {
+                            "name": "海峡",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/自然世界/海峡"
+                        }
+                    ]
+                },
+                {
+                    "name": "地理方法",
+                    "mcHereShow": false,
+                    "path": "科学/地球与宇宙科学/地理方法"
+                },
+                {
+                    "name": "地理现象",
+                    "mcHereShow": false,
+                    "path": "科学/地球与宇宙科学/地理现象",
+                    "children": [
+                        {
+                            "name": "自然灾害",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理现象/自然灾害",
+                            "children": [
+                                {
+                                    "name": "生物灾害",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理现象/自然灾害/生物灾害"
+                                },
+                                {
+                                    "name": "水文灾害",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理现象/自然灾害/水文灾害"
+                                },
+                                {
+                                    "name": "气象灾害",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理现象/自然灾害/气象灾害"
+                                },
+                                {
+                                    "name": "地质灾害",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理现象/自然灾害/地质灾害"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地质运动",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理现象/地质运动",
+                            "children": [
+                                {
+                                    "name": "外力作用",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理现象/地质运动/外力作用"
+                                },
+                                {
+                                    "name": "内力作用",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理现象/地质运动/内力作用"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "地理事实",
+                    "mcHereShow": false,
+                    "path": "科学/地球与宇宙科学/地理事实",
+                    "children": [
+                        {
+                            "name": "人文设施",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/人文设施",
+                            "children": [
+                                {
+                                    "name": "港口",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/港口"
+                                },
+                                {
+                                    "name": "铁路运输线",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/铁路运输线"
+                                },
+                                {
+                                    "name": "工业基地",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/工业基地"
+                                },
+                                {
+                                    "name": "工业区",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/工业区"
+                                },
+                                {
+                                    "name": "渔场",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/渔场"
+                                },
+                                {
+                                    "name": "国旗",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/国旗"
+                                },
+                                {
+                                    "name": "工厂",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/工厂"
+                                },
+                                {
+                                    "name": "自然保护区",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/自然保护区"
+                                },
+                                {
+                                    "name": "牧区",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/牧区"
+                                },
+                                {
+                                    "name": "水库",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/水库"
+                                },
+                                {
+                                    "name": "水电站",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/水电站"
+                                },
+                                {
+                                    "name": "科学考察站",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/科学考察站"
+                                },
+                                {
+                                    "name": "大堤",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/大堤"
+                                },
+                                {
+                                    "name": "铁路枢纽",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/铁路枢纽"
+                                },
+                                {
+                                    "name": "盐场",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/人文设施/盐场"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "节日",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/节日"
+                        },
+                        {
+                            "name": "旅游胜地",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/旅游胜地",
+                            "children": [
+                                {
+                                    "name": "人文旅游资源",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/旅游胜地/人文旅游资源"
+                                },
+                                {
+                                    "name": "自然旅游资源",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/旅游胜地/自然旅游资源"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "语言",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/语言"
+                        },
+                        {
+                            "name": "世界遗产",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/世界遗产",
+                            "children": [
+                                {
+                                    "name": "世界自然遗产",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/世界遗产/世界自然遗产"
+                                },
+                                {
+                                    "name": "世界文化遗产",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/世界遗产/世界文化遗产"
+                                },
+                                {
+                                    "name": "世界自然与文化遗产",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/世界遗产/世界自然与文化遗产"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "民族",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/民族"
+                        },
+                        {
+                            "name": "宗教",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/宗教"
+                        },
+                        {
+                            "name": "国际组织",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/国际组织",
+                            "children": [
+                                {
+                                    "name": "区域性国际组织",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/国际组织/区域性国际组织"
+                                },
+                                {
+                                    "name": "全球性国际组织",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/国际组织/全球性国际组织"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "人种",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/人种"
+                        },
+                        {
+                            "name": "地理名人",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/地理名人"
+                        },
+                        {
+                            "name": "资源",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/资源"
+                        },
+                        {
+                            "name": "区域",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理事实/区域",
+                            "children": [
+                                {
+                                    "name": "洲",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/区域/洲"
+                                },
+                                {
+                                    "name": "村落",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/区域/村落"
+                                },
+                                {
+                                    "name": "国家",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/区域/国家",
+                                    "children": [
+                                        {
+                                            "name": "资本主义国家",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/资本主义国家"
+                                        },
+                                        {
+                                            "name": "内陆国",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/内陆国"
+                                        },
+                                        {
+                                            "name": "移民国家",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/移民国家"
+                                        },
+                                        {
+                                            "name": "阿拉伯国家",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/阿拉伯国家"
+                                        },
+                                        {
+                                            "name": "临海国",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/临海国"
+                                        },
+                                        {
+                                            "name": "发展中国家",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/发展中国家"
+                                        },
+                                        {
+                                            "name": "社会主义国家",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/社会主义国家"
+                                        },
+                                        {
+                                            "name": "岛国",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/岛国"
+                                        },
+                                        {
+                                            "name": "发达国家",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/国家/发达国家"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "不确定级别行政区",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/区域/不确定级别行政区"
+                                },
+                                {
+                                    "name": "乡镇级行政区",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/区域/乡镇级行政区"
+                                },
+                                {
+                                    "name": "省级行政区",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/区域/省级行政区",
+                                    "children": [
+                                        {
+                                            "name": "省",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/省级行政区/省"
+                                        },
+                                        {
+                                            "name": "州",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/省级行政区/州"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "市级行政区",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/区域/市级行政区",
+                                    "children": [
+                                        {
+                                            "name": "城市",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/市级行政区/城市"
+                                        },
+                                        {
+                                            "name": "自治州",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/市级行政区/自治州"
+                                        },
+                                        {
+                                            "name": "经济特区",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/市级行政区/经济特区"
+                                        },
+                                        {
+                                            "name": "特别行政区",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/市级行政区/特别行政区"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "县级行政区",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理事实/区域/县级行政区",
+                                    "children": [
+                                        {
+                                            "name": "市辖区",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/县级行政区/市辖区"
+                                        },
+                                        {
+                                            "name": "县",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理事实/区域/县级行政区/县"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "地理常识概念",
+                    "mcHereShow": false,
+                    "path": "科学/地球与宇宙科学/地理常识概念"
+                },
+                {
+                    "name": "地理概念",
+                    "mcHereShow": false,
+                    "path": "科学/地球与宇宙科学/地理概念",
+                    "children": [
+                        {
+                            "name": "环境污染",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/环境污染"
+                        },
+                        {
+                            "name": "城市化模式",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/城市化模式"
+                        },
+                        {
+                            "name": "交通运输方式",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/交通运输方式"
+                        },
+                        {
+                            "name": "城市主要功能区",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/城市主要功能区"
+                        },
+                        {
+                            "name": "天体",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/天体"
+                        },
+                        {
+                            "name": "水利工程",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/水利工程"
+                        },
+                        {
+                            "name": "太阳活动",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/太阳活动"
+                        },
+                        {
+                            "name": "降水类型",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/降水类型"
+                        },
+                        {
+                            "name": "城市形态",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/城市形态"
+                        },
+                        {
+                            "name": "径流带",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/径流带"
+                        },
+                        {
+                            "name": "天气",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/天气",
+                            "children": [
+                                {
+                                    "name": "雨",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理概念/天气/雨"
+                                },
+                                {
+                                    "name": "风",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理概念/天气/风"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "城市化时期",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/城市化时期"
+                        },
+                        {
+                            "name": "大气分层",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/大气分层"
+                        },
+                        {
+                            "name": "资源问题",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/资源问题"
+                        },
+                        {
+                            "name": "新工业区",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/新工业区"
+                        },
+                        {
+                            "name": "内力作用",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/内力作用"
+                        },
+                        {
+                            "name": "地理学说",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/地理学说"
+                        },
+                        {
+                            "name": "地理学科",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/地理学科"
+                        },
+                        {
+                            "name": "岩石",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/岩石"
+                        },
+                        {
+                            "name": "气压带",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/气压带"
+                        },
+                        {
+                            "name": "农业",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/农业"
+                        },
+                        {
+                            "name": "风带",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/风带"
+                        },
+                        {
+                            "name": "星象",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/星象"
+                        },
+                        {
+                            "name": "板块",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/板块"
+                        },
+                        {
+                            "name": "植物",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/植物",
+                            "children": [
+                                {
+                                    "name": "农作物",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物",
+                                    "children": [
+                                        {
+                                            "name": "饮料作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/饮料作物"
+                                        },
+                                        {
+                                            "name": "绿肥作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/绿肥作物"
+                                        },
+                                        {
+                                            "name": "药材作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/药材作物"
+                                        },
+                                        {
+                                            "name": "饲料作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/饲料作物"
+                                        },
+                                        {
+                                            "name": "纤维作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/纤维作物"
+                                        },
+                                        {
+                                            "name": "嗜好作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/嗜好作物"
+                                        },
+                                        {
+                                            "name": "晚秋作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/晚秋作物"
+                                        },
+                                        {
+                                            "name": "糖料作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/糖料作物"
+                                        },
+                                        {
+                                            "name": "粮食作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/粮食作物",
+                                            "children": [
+                                                {
+                                                    "name": "谷类作物",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物/粮食作物/谷类作物"
+                                                },
+                                                {
+                                                    "name": "豆类作物",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物/粮食作物/豆类作物"
+                                                },
+                                                {
+                                                    "name": "薯类作物",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物/粮食作物/薯类作物"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "油料作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/油料作物"
+                                        },
+                                        {
+                                            "name": "园艺作物",
+                                            "mcHereShow": false,
+                                            "path": "科学/地球与宇宙科学/地理概念/植物/农作物/园艺作物",
+                                            "children": [
+                                                {
+                                                    "name": "草",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物/园艺作物/草"
+                                                },
+                                                {
+                                                    "name": "果品",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物/园艺作物/果品"
+                                                },
+                                                {
+                                                    "name": "蔬菜",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物/园艺作物/蔬菜"
+                                                },
+                                                {
+                                                    "name": "花卉",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物/园艺作物/花卉"
+                                                },
+                                                {
+                                                    "name": "瓜果",
+                                                    "mcHereShow": false,
+                                                    "path": "科学/地球与宇宙科学/地理概念/植物/农作物/园艺作物/瓜果"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "外力作用",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/外力作用"
+                        },
+                        {
+                            "name": "地球圈层",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/地球圈层"
+                        },
+                        {
+                            "name": "自然资源",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/自然资源"
+                        },
+                        {
+                            "name": "土壤类型",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/土壤类型"
+                        },
+                        {
+                            "name": "工业",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/工业"
+                        },
+                        {
+                            "name": "自然带",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/自然带"
+                        },
+                        {
+                            "name": "环境问题",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/环境问题"
+                        },
+                        {
+                            "name": "季节",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/季节"
+                        },
+                        {
+                            "name": "传统工业",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/传统工业"
+                        },
+                        {
+                            "name": "气候类型",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/气候类型"
+                        },
+                        {
+                            "name": "水体",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/水体"
+                        },
+                        {
+                            "name": "传统工业区",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/传统工业区"
+                        },
+                        {
+                            "name": "农业地域类型",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/农业地域类型"
+                        },
+                        {
+                            "name": "植被类型",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/植被类型"
+                        },
+                        {
+                            "name": "等值线",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/等值线"
+                        },
+                        {
+                            "name": "节气",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/节气"
+                        },
+                        {
+                            "name": "天体系统",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/天体系统"
+                        },
+                        {
+                            "name": "能源",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/能源",
+                            "children": [
+                                {
+                                    "name": "常规能源",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理概念/能源/常规能源"
+                                },
+                                {
+                                    "name": "新能源",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理概念/能源/新能源"
+                                },
+                                {
+                                    "name": "不可再生能源",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理概念/能源/不可再生能源"
+                                },
+                                {
+                                    "name": "可再生能源",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理概念/能源/可再生能源"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "气候带",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/气候带"
+                        },
+                        {
+                            "name": "地图",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/地图"
+                        },
+                        {
+                            "name": "等值线图",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/等值线图"
+                        },
+                        {
+                            "name": "新工业",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/新工业"
+                        },
+                        {
+                            "name": "城市内部空间结构",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/城市内部空间结构"
+                        },
+                        {
+                            "name": "天气系统",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/天气系统",
+                            "children": [
+                                {
+                                    "name": "锋",
+                                    "mcHereShow": false,
+                                    "path": "科学/地球与宇宙科学/地理概念/天气系统/锋"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "资源跨区域调配工程",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/资源跨区域调配工程"
+                        },
+                        {
+                            "name": "大气环流",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/大气环流"
+                        },
+                        {
+                            "name": "农业区",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理概念/农业区"
+                        }
+                    ]
+                },
+                {
+                    "name": "地理原理",
+                    "mcHereShow": false,
+                    "path": "科学/地球与宇宙科学/地理原理",
+                    "children": [
+                        {
+                            "name": "地理关系",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理原理/地理关系"
+                        },
+                        {
+                            "name": "地理过程",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理原理/地理过程"
+                        },
+                        {
+                            "name": "地理证明",
+                            "mcHereShow": false,
+                            "path": "科学/地球与宇宙科学/地理原理/地理证明"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}]

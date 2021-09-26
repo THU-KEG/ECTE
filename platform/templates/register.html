@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Knowledge Engineering Group Data Labeling Platform - KEG数据标注平台</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <style>
+        body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #eee;
+        }
+
+        form {
+        padding: 15px;
+        margin: 0 auto;
+        }
+        form .form-control {
+        position: relative;
+        box-sizing: border-box;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+        }
+        form .form-control:focus {
+        z-index: 2;
+        }
+        form input {
+        margin-bottom: 10px;
+        }
+        .my-button {
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 5px;
+        }
+        .btn-light {
+        color: #212529;
+        background-color: #f8f9fa;
+        border-color: #f8f9fa;
+        }
+        .btn-success {
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+        }
+        .btn {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+
+    </style>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/static/js/md5.min.js"></script>
+    <script>
+    function imgclick() {
+	    $.ajax({
+				type:"post",
+				url:"https://api.freetest.net.cn/getcode",	//FreeTest 接口
+				data:{"appid":1000, "type":1, "sign":"4896E104C73A7C31EC40FE9762D24B59"},
+				success:function(res){
+			    var json_obj = JSON.parse(res);
+					var ft_token = json_obj.token; 
+					var ft_url = "https://" +json_obj.url;
+					$("#codeimg").attr("src", ft_url);
+          $("#ft_token").attr("value", ft_token);
+				}
+			});
+		}
+    function getCookie(name) {
+      var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
+      return r ? r[1] : undefined;
+    }
+    function check_name(input) {
+      input.setCustomValidity("");
+      $(input).removeClass("is-invalid");
+      reg=/^[\u4e00-\u9fa5_a-zA-Z0-9-]{4,16}$/g;
+      if (!reg.test(input.value)) {
+          $(input).addClass("is-invalid");
+          input.setCustomValidity("Invalid Username.");
+          input.reportValidity();
+      } else {
+        $.ajax({
+          type: "post",
+          url: "/check_name",
+          data: {"username": input.value, "_xsrf": getCookie("_xsrf")},
+          success: function(res) {
+            var json_obj = JSON.parse(res);
+            var status = json_obj.status;
+            if ("failed" == status) {
+              input.setCustomValidity("User existed.");
+              $(input).addClass("is-invalid");
+            }
+          }
+        });
+      }
+    }
+
+    function check_pass(input) {
+      input.setCustomValidity("");
+      $(input).removeClass("is-invalid");
+      reg=/^[_a-zA-Z0-9]{4,16}$/g;
+      if (!reg.test(input.value)) {
+          $(input).addClass("is-invalid");
+          input.setCustomValidity("Invalid password.");
+          input.reportValidity();
+      } 
+    }
+
+    function check_confirm_pass(input) {
+      input.setCustomValidity("");
+      $(input).removeClass("is-invalid");
+      if (input.value != $("#password").val()) {
+          $(input).addClass("is-invalid");
+          input.setCustomValidity("Password mismatch.");
+          input.reportValidity(); 
+      }
+    }
+
+    function check_inviter_mail(input) {
+      input.setCustomValidity("");
+      $(input).removeClass("is-invalid");
+      reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      if (input === "" || !reg.test(input.value)) {
+          $(input).addClass("is-invalid");
+          input.setCustomValidity("Invalid Email address.");
+          input.reportValidity();
+      }
+    }
+
+
+
+    function submit_form() {
+      var user = document.getElementById("username").value;
+      var pass = document.getElementById("password").value;
+      document.getElementById("password").value = md5(user + ';' + pass);
+    }
+    // $(function () {
+    //     $(".btn-light").click(function () {
+    //       if($(this).hasClass("btn-light")){
+    //         $(this).removeClass("btn-light");
+    //         $(this).addClass("btn-success");
+    //         recommend.add($(this).text());
+    //       }else{
+    //         $(this).removeClass("btn-success");
+    //         $(this).addClass("btn-light");
+    //         recommend.delete($(this).text());
+    //       }
+    //     });
+    // });
+
+    
+    
+    </script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      {% if globals().get('alert_msg') %}
+      <div class="alert alert-danger" role="alert">
+        {{ alert_msg }}
+      </div>
+      {% end %}
+      <form method="POST" class="needs-validation" novalidate onsubmit="submit_form()">
+        <h3>注册</h3><br>
+        <div class="form-group row">
+          <label for="username" class="col-sm-2 col-form-label">用户名 (*)</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" name="username" id="username" placeholder="Username" required oninput="check_name(this)">
+          </div>
+          <div class="col-sm-6">
+            <p>请输入4-16个字符，包括字母、数字和下划线，当输入框边框为红色时，代表此用户名已被使用，请使用其他用户名</p>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="password" class="col-sm-2 col-form-label">密码 (*)</label>
+          <div class="col-sm-4">
+            <input type="password" class="form-control" name=password id="password" placeholder="Password" required oninput="check_pass(this)">
+          </div>
+          <div class="col-sm-6">
+            <p>请输入4-16个字符，包括字母、数字和下划线</p>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="password2" class="col-sm-2 col-form-label">密码确认 (*)</label>
+          <div class="col-sm-4">
+            <input type="password" class="form-control" id="password2" placeholder="Password" required oninput="check_confirm_pass(this)">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="email" class="col-sm-2 col-form-label">邮箱 (*)</label>
+          <div class="col-sm-4">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="student_id" class="col-sm-2 col-form-label">学生卡号</label>
+          <div class="col-sm-4">
+            <input type="number" class="form-control" id="student_id" name="student_id" placeholder="Student Id">
+          </div>
+          <div class="col-sm-6">
+            <p>如果您来自清华大学，请输入您的学生卡号</p>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inviter_mail" class="col-sm-2 col-form-label">邀请人邮箱</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="inviter_mail" name="inviter_mail" placeholder="inviter@example.com" oninput="check_inviter_mail(this)"></input>
+          </div>
+          <div class="col-sm-6">
+            <p>如果有人邀请您注册本网站，请输入邀请者在<b>本网站</b>注册的邮箱。</p>
+          </div>
+
+          <div id="buttons">
+            <p><b>请选择擅长的领域：</b></p>
+            世界历史<input type="checkbox"  name="buttons" class="btn btn-light my-button" value="世界历史" />
+            免疫学<input type="checkbox" name="buttons" class="btn btn-light my-button" value="免疫学" />
+            农学<input type="checkbox" name="buttons" class="btn btn-light my-button" value="农学"/>
+            力学<input type="checkbox" name="buttons" class="btn btn-light my-button" value="力学"/>
+            化学<input type="checkbox" name="buttons" class="btn btn-light my-button" value="化学"/>
+            医学<input type="checkbox" name="buttons" class="btn btn-light my-button" value="医学"/>
+            地理学<input type="checkbox" name="buttons" class="btn btn-light my-button" value="地理学"/>
+            地质学<input type="checkbox" name="buttons" class="btn btn-light my-button" value="地质学"/>
+            建筑学<input type="checkbox" name="buttons" class="btn btn-light my-button" value="建筑学"/>
+            心理学<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="心理学"/>
+            教育学<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="教育学"/>
+            数学<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="数学"/>
+            机械工程<input type="checkbox"  name="buttons"  class="btn btn-light my-button" value="机械工程"/>
+            材料科学技术<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="材料科学技术"/>
+            物理学<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="物理学"/>
+            电子学<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="电子学"/>
+            电气工程<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="电气工程"/>
+            管理科学技术<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="管理科学技术"/>
+            自然辩证法<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="自然辩证法"/>
+            航天科学技术<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="航天科学技术"/>
+            航空科学技术<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="航空科学技术"/>
+            船舶工程<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="船舶工程"/>
+            计算机科学技术<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="计算机科学技术"/>
+            语言学<input type="checkbox" name="buttons"  class="btn btn-light my-button" value="语言学"/>
+            
+          </div>
+        </div>
+        <!-- <div class="form-group row">
+          <label for="ft_value" class="col-sm-2 col-form-label">Captcha (*)</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="ft_value" name="ft_value" placeholder="Input letters in the image" required>
+          </div>
+          <div class="col-sm-6">
+            <img id="codeimg" src="" onclick="imgclick()">
+          </div>
+        </div> -->
+        <input type="hidden" id="ft_token" name="ft_token" />
+        <div class="row">
+          <button type="submit" class="btn btn-primary btn-lg col-sm-2">注册</button>
+        </div>
+        {% raw xsrf_form_html() %}
+      </form>
+
+    </div> <!-- /container -->
+
+    <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+            }, false);
+          });
+        imgclick();
+      },false);
+      
+    })();
+    
+    </script>
+  </body>
+</html>

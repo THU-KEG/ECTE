@@ -1,0 +1,223 @@
+<!DOCTYPE doctype html>
+<html lang="zh">
+    <head>
+        <title>
+            Knowledge Engineering Group Data Labeling Platform - KEG数据标注平台
+        </title>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+        <link href="/static/css/label.css" rel="stylesheet" type="text/css"/>
+        <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js">
+        </script>
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js">
+        </script>
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+        <script src="/static/js/label.js" type="text/javascript">
+        </script>
+        <script type="text/javascript" src="/static/js/echarts.js">
+        </script>     
+
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+            <a class="navbar-brand" href="/#">
+                KEG标注平台
+            </a>
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            {% if is_admin %}
+                <span class="navbar-text active">
+                      <a class="nav-link" href="/pay_manage" target="_blank">
+                          财务
+                      </a>
+                </span>
+                <span class="navbar-text active">
+                      <a class="nav-link" href="/user_status" target="_blank">
+                          管理
+                      </a>
+                </span>
+                <span class="navbar-text active">
+                      <a class="nav-link" href="/tagging_log" target="_blank">
+                          日志
+                      </a>
+                </span>
+            {% end %}
+            <span class="navbar-text active">
+                <a class="nav-link" href="/ranking" target="_blank">
+                    排行榜
+                </a>
+            </span>
+            <span class="navbar-text active">
+                <a class="nav-link" href="/pay_info">
+                    报酬
+                </a>
+            </span>
+            <span class="navbar-text active">
+                <a class="nav-link" href="/login?action=logout">
+                    注销
+                </a>
+            </span>
+        </nav>
+
+        <main class="container" role="main">
+            <p>
+                今天也要加油哦！ 您已经标注了 {{ user_total_tagged }} 组。
+            </p>
+            <div class="col-12", style="height: 100%;">
+                {% if is_hard %}
+                <div class="alert alert-info" role="alert">难题</div>
+                {% end %}
+                <div class="jumbotron" id="problem_board">
+                    <ul class="list-unstyled question" height="100px" id="" name="">
+                        <li class="question_title">
+                        </li>
+                        <li class="taxonomy_choices">
+                        </li>
+                        <div id="tree" class="chart-container" style="width:100%; height:80%; bottom:10%; overflow-y:scroll;">
+                        </div>
+                        
+                    </ul>
+                    <div id="test_answer">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-4" id="three-button">
+                <button class="btn btn-success col-5 float-right" data-target="#myModal" data-toggle="modal" id="submitQuestions">
+                    提交答案
+                </button>
+                <button class="btn btn-warning col-5" id="refresh_problem">
+                    跳过本组
+                </button>
+                <button class="btn btn-info col-5" data-target="#myModal3" data-toggle="modal" id="create_feedback">
+                    提交反馈
+                </button>
+                <button class="btn btn-danger col-5" data-target="#myModal4" data-toggle="modal" id="quitQuestions">
+                    终止答题
+                </button>
+            </div>
+        </main>
+    </body>
+    <!-- 模态框（Modal） -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="myModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">
+                        ×
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        请确认提交
+                    </h4>
+                </div>
+                <div class="modal-body" id="submitTip" style="font-size: 24px">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" id="confirmSubmit" type="button">
+                        提交更改(y)
+                    </button>
+                    <button class="btn btn-default" id="cancelSubmit" type="button">
+                        取消(n)
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="myModal4" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">
+                        ×
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        请确认退出
+                    </h4>
+                </div>
+                <div class="modal-body" id="submitTip2" style="font-size: 24px">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" id="confirmSubmit2" type="button">
+                        退出(y)
+                    </button>
+                    <button class="btn btn-default" id="cancelSubmit2" type="button">
+                        取消(n)
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- 模态框（Modal） -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="myModal2" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">
+                        ×
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        提交成功
+                    </h4>
+                </div>
+                <div class="modal-body" id="submitTip" style="font-size: 24px">
+                    是否进行下一组？
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" id="refresh" type="button">
+                        下一组(y)
+                    </button>
+                    <button class="btn btn-default" id="returnToIndex" type="button">
+                        返回首页(n)
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- 模态框（Modal） -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="myModal3" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">
+                        ×
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        反馈
+                    </h4>
+                </div>
+                <div class="modal-body" id="submitTip" style="font-size: 24px">
+                        <br>
+                            <input id="error" type="text">
+                            </input>
+                        </br>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-default" data-dismiss="modal" type="button">
+                      取消
+                  </button>
+                  <button class="btn btn-primary" id="post_feedback" type="button">
+                      提交
+                  </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</html>
+
+<!-- /.modal-content -->
+<!-- /.modal-dialog -->
+<!-- /.modal -->
+<input id="q_data" type="hidden" value="{{ dis }}"/>
+<input id="q_type" type="hidden" value="{{ test_type }}"/>
