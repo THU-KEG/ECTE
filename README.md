@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 We provide an example of our data format in folder `platform/example`.
 
-As a requester, there are 2 inputs for ETCE, namely a taxonomy `T` and a set of instances `I`.
+As a requester, there are 2 inputs for ECTE, namely a taxonomy `T` and a set of instances `I`.
 In our example, `T` is defined in `example/science_class.json` and `I` is defined in `example/instances.txt`.
 Instances in `I` can be devided into 2 groups, namely one group with gold answers and the other group without gold answers.
 These instances are stored in `problem` table of `example/example.db`.
