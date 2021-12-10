@@ -46,3 +46,30 @@ cd platform
 python server.py --db=example/example.db --port=8008 --bc=example/business_config.json
 ```
 
+## Reference
+
+If you find this repositoy helpful, please consider citing [our paper](https://link.springer.com/chapter/10.1007/978-3-030-90888-1_2).
+```
+@InProceedings{10.1007/978-3-030-90888-1_2,
+author="Wang, Yuquan
+and Wang, Yanpeng
+and Mao, Yiming
+and Yu, Jifan
+and Zeng, Kaisheng
+and Hou, Lei
+and Li, Juanzi
+and Tang, Jie",
+editor="Zhang, Wenjie
+and Zou, Lei
+and Maamar, Zakaria
+and Chen, Lu",
+title="Expertise-Aware Crowdsourcing Taxonomy Enrichment",
+booktitle="Web Information Systems Engineering -- WISE 2021",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="14--29",
+isbn="978-3-030-90888-1"
+}
+```
+
